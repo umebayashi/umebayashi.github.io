@@ -20,6 +20,9 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="Content\app.css" />
+    <Content Include="Content\app.min.css">
+      <DependentUpon>app.css</DependentUpon>
+    </Content>
     <Content Include="Scripts\app.js" />
     <Content Include="index.html" />
     <Content Include="web.config" />
@@ -30,6 +33,10 @@
   <ItemGroup>
     <Content Include="README.md" />
     <Content Include="Scripts\app.js.map" />
+    <Content Include="Content\app.less" />
+    <Content Include="Content\app.css.map">
+      <DependentUpon>app.css</DependentUpon>
+    </Content>
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
