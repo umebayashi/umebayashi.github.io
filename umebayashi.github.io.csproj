@@ -19,24 +19,32 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="Content\app.css" />
-    <Content Include="Content\app.min.css">
+    <Content Include="css\app.css" />
+    <Content Include="css\app.min.css">
       <DependentUpon>app.css</DependentUpon>
     </Content>
-    <Content Include="Scripts\app.js" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="js\app.js" />
     <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\app.ts" />
+    <TypeScriptCompile Include="js\app.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="README.md" />
-    <Content Include="Scripts\app.js.map" />
-    <Content Include="Content\app.less" />
-    <Content Include="Content\app.css.map">
+    <Content Include="js\app.js.map" />
+    <Content Include="css\app.less" />
+    <Content Include="css\app.css.map">
       <DependentUpon>app.css</DependentUpon>
     </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -44,6 +52,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
